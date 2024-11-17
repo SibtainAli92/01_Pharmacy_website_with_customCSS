@@ -1,14 +1,14 @@
 .project-item {
     display: flex;
-    background-color: white; /* White background for each card */
-    border: 1px solid #ddd; /* Light border for separation */
-    border-radius: 8px; /* Rounded corners */
-    padding: 15px; /* Inner spacing */
-    margin: 10px; /* Space between cards */
-    text-align: center; /* Center text */
-    width: 300px; /* Fixed width for cards */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-    transition: transform 0.2s; /* Transition for hover effect */
+    background-color: white; 
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px; 
+    text-align: center; 
+    width: 300px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -18,16 +18,16 @@
     transform: scale(1.05); 
 }
 .image {
-    border-radius: 8px; /* Round image corners */
-    max-width: 100%; /* Ensure image fits within the card */
-    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    max-width: 100%; 
+    height: auto; 
 }
 
 .price {
-    font-size: 1.5rem; /* Larger font size for prices */
+    font-size: 1.5rem; 
     font-weight: 800;
-    color: #1d640f; /* Green color for prices */
-    margin: 10px 0; /* Space above and below price */
+    color: #1d640f; 
+    margin: 10px 0; 
 }
 
     
