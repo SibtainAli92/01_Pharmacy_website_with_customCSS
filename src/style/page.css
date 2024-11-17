@@ -1,7 +1,7 @@
 .home-container {
   background: url("../../public/pharmacy.png") no-repeat center;
-  background-size: cover; /* Cover the entire area */
-  height: 100vh; /* Full height */
+  background-size: cover; 
+  height: 100vh; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,43 +12,42 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px; /* Add some padding for spacing */
+  padding: 20px; 
 }
 
 .text-content {
   font-family: math;
   font-weight: 900;
   text-align: center;
-  margin-right: 20px; /* Space between text and image */
-  color: rgb(15, 15, 14); /* Text color */
-  border: 2px solid rgba(255, 255, 255, 0.8); /* Adding a white border for the frame */
-  border-radius: 50px 50px 50px 50px; /* Rounded corners */
-  padding: 20px; /* Padding inside the frame */
-  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
+  margin-right: 20px; 
+  color: rgb(15, 15, 14); 
+  border: 2px solid rgba(255, 255, 255, 0.8); 
+  border-radius: 50px 50px 50px 50px; 
+  padding: 20px; 
+  background-color: rgba(255, 255, 255, 0.9); 
 }
 
 .text-content h1 {
-  font-size: 2.5rem; /* Adjust font size */
+  font-size: 2.5rem; 
   margin-bottom: 10px;
 }
 
 .text-content p {
-  font-size: 1.2rem; /* Adjust font size */
+  font-size: 1.2rem; 
 }
 
 .image-container {
-  width: 300px; /* Match with Image width */
+  width: 300px; 
   height: 300px;
 }
 
 .pharmacy-image {
-  border-radius: 10px; /* Optional: rounded corners for the image */
+  border-radius: 10px; 
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   .content-box {
-      flex-direction: column; /* Stack text and image on smaller screens */
+      flex-direction: column; 
       align-items: center;
   }
   .home-container{
@@ -56,11 +55,11 @@
   }
 
   .text-content {
-      margin-right: 0; /* Reset margin */
-      text-align: center; /* Center text */
+      margin-right: 0; 
+      text-align: center;
   }
 
   .image-container {
-      margin-top: 20px; /* Space above the image */
+      margin-top: 20px; 
   }
 }
