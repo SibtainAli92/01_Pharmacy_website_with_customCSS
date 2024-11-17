@@ -1,0 +1,77 @@
+.project-box {
+    /* background: url("../../public/pharmacy.png") no-repeat center center;
+    background-size: cover; */
+    background:  #d2e2ec;
+}
+
+.project-heading {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Large heading size */
+    font-family: math;
+}
+
+.main-div {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    justify-content: center; /* Evenly space items */
+
+}
+
+.project-item {
+    background-color: rgb(244, 247, 248);
+    border: 1px solid #030303; /* Light border for separation */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    font-family: math;
+    margin: 10px; /* Space between items */
+    text-align: center; /* Center text */
+    width: 300px; /* Fixed width for consistent layout */
+    box-shadow: 0 2px 10px black; /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Smooth scaling effect on hover */
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-item:hover {
+    transform: scale(1.05); /* Slightly enlarge item on hover */
+}
+
+.portfolio-image {
+    border-radius: 8px; /* Round image corners */
+    width: 100%; /* Ensure image takes full width of the item */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio and cover area */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .project-heading {
+        font-size: 2rem; /* Smaller heading size for tablets */
+    }
+
+    .main-div {
+        justify-content: center; /* Center items on smaller screens */
+    }
+
+    .project-item {
+        width: 90%; /* Full width for smaller screens */
+        margin: 10px 0; /* Vertical spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    .project-heading {
+        font-size: 1.5rem; /* Smaller heading size for mobile */
+    }
+
+    .project-item {
+        width: 95%; /* Full width for mobile */
+        padding: 10px; /* Reduced padding */
+    }
+
+    .portfolio-image {
+        height: 150px; /* Reduced height for mobile */
+    }
+}
