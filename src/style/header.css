@@ -1,5 +1,5 @@
 .header-box {
-  background-color: #92dff3; /* Blue background */
+  background-color: #92dff3; 
   color: #1B5886;
   padding: 20px 0;
   font-family: serif;
@@ -8,7 +8,7 @@
 .header-content {
   font-weight: 900;
   font-family: math;
-  max-width: 1200px; /* Center the content */
+  max-width: 1200px; 
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -18,13 +18,13 @@
 
 .header-content h1 {
   margin: 0;
-  font-size: 2rem; /* Adjust font size */
+  font-size: 2rem; 
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 20px; /* Space between items */
+  gap: 20px;
 }
 
 nav ul li {
@@ -34,22 +34,21 @@ nav ul li {
 nav ul li a {
   color: #1B5886;
   text-decoration: none;
-  font-size: 1rem; /* Adjust font size */
+  font-size: 1rem; /
 }
 
 nav ul li a:hover {
   color: black ;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   .header-content {
-      flex-direction: column; /* Stack items on smaller screens */
+      flex-direction: column; 
       align-items: flex-start;
   }
 
   nav ul {
-      flex-direction: column; /* Stack nav items */
-      gap: 10px; /* Space between items */
+      flex-direction: column; 
+      gap: 10px; 
   }
 }
